@@ -21,12 +21,12 @@ yarn.lock
 .idea/
 
 # Compiled TypeScript
-*.js
-*.js.map
+# *.js
+# *.js.map
 
-# Compiled CSS
-*.css
-*.css.map
+# # Compiled CSS
+# *.css
+# *.css.map
 
 # Angular generated files
 # src/environments/environment*.ts

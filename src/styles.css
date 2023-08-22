@@ -1,0 +1,135 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* @import "~bootstrap/dist/css/bootstrap.min.css."; */
+@import "node_modules/bootstrap/dist/css/bootstrap.css";
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+/* styles.scss or styles.css */
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* .main-container .bgColor{
+  background-color: #cc0000;
+  color: white;
+}
+
+/* Custom styles for snack bars */
+/* .mat-snack-bar-container.error {
+  background-color: red;
+  color: white; 
+}
+
+.mat-snack-bar-container.success {
+  background-color: green !important;
+  color: white;
+}
+
+.mat-snack-bar-container.warning {
+  background-color: yellow;
+  color: black; /* Or any other color for better visibility */
+/* }  */
+
+
+.error-snackbar{
+    background-color: red;
+    color: white; 
+}
+
+.success-snackbar{
+  padding: 5px ;
+  background: green !important  ;
+  color: red !important; 
+  mix-blend-mode:overlay !important;
+
+}
+.warn-snackbar{
+  background-color: yellow;
+  color: white; 
+}
+
+
+
+
+
+/* .mat-snack-bar-container { */
+  /* color: white; */
+  /* background: #119b0b !important; */
+  /* box-shadow: 0 4px 8px #a8a1a124; */
+  /* padding: 14px 20px; */
+  /* min-height: 56px; */
+  /* min-width: 375px; */
+  /* justify-content: center !important; */
+  /* z-index: 9999;
+
+  &.success{
+    background-color:#119b0b !important;
+    padding: 14px 20px !important;
+
+  }
+
+  &.error {
+    background-color: #cc0000 !important; 
+  }
+
+  &.warning { */
+    /* background: #e86014; */
+  /* } */
+/* } */ 
+
+
+.bgColor{
+  background-color: #cc0000 !important;
+  color: white !important;
+}
+/* .green-snackbar {
+    background: #32CD32 ;
+    color: white;
+  } */
+/* 
+  .customClass{
+    color: red;
+  } */
+  
+
+  html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+  /* //responsibe table */
+  
+  @media(max-width: 800px) {
+    .responsive_table {
+        overflow-x: auto !important;
+    }
+  
+    .mat-table {
+        min-width:800px;
+    }
+  }
+  
+  .mat-row {
+    height: auto;
+  }
+  mat-hint{
+    color: red !important;
+  }
+  
+  .mat-header-cell,.mat-cell {
+    text-align: center !important;
+    padding: 0px 8px 0px 15px !important;
+  }
+
+  .float-right{
+    float: right !important; 
+}
+/* 
+::ng-deep .mat-mdc-snack-bar-label{
+background: green !important;
+} */
+ /* mdc-snackbar__label */
+
+ /* .page-wrapper{
+  height: 550px;
+ } */
