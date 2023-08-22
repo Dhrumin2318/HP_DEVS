@@ -29,7 +29,7 @@ yarn.lock
 *.css.map
 
 # Angular generated files
-src/environments/environment*.ts
+# src/environments/environment*.ts
 
 # Testing
 karma.conf.js
