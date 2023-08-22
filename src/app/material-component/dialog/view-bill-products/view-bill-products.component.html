@@ -1,0 +1,82 @@
+
+<html>
+<head>
+<style>
+    table{
+    font-family: cursive;
+    border-collapse: collapse;
+       /* width: 100%; */
+}
+td,th{
+    border: 1px solid #dddddd;
+    text-align-last: left;
+    padding: 8px;
+}
+
+</style>
+</head>
+<div class="p-2 bg-secondary">
+    <button [matDialogClose]="true" class="btn btn-danger float-right" [matDialogClose]="true">X</button>
+</div>
+
+<body id="htmlData" class="bg-secondary text-white p-3">
+    
+    <p class="text-center p-3 rounded bg-secondary font-italic">CMS</p>
+        <table class="w-100 table text-center">
+            <tr>
+                <th>Name : {{data.name}}</th>
+                <th>email : {{data.email}}</th>
+            </tr>
+            <tr>
+                <th>contact : {{data.contactNumber}}</th>
+                <th>Payment Method : {{data.paymentMethod}}</th>
+            </tr>
+        </table>
+<br>
+<hr>
+        <h3>Product Details</h3>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Quantity</th> 
+                <th>Price</th> 
+                <th>Sub-Total</th>
+            </tr>
+           
+                    <tr *ngFor="let details of prod">
+                        <td>{{details.name}}</td> 
+                        <td>{{details.category}}</td> 
+                        <td>{{details.quantity}}</td> 
+                        <td>{{details.price}}</td> 
+                        <td>{{details.total}}</td>
+                    </tr>
+                    
+        </table>
+
+        <div class="p-2">
+            <h3 class="text-dark float-right badge bg-white" >Total : {{data.total}}</h3>
+        </div>
+        <br>
+        <h3 class="text-center">Thank You For Visiting Visit Again!!</h3>
+
+        
+</body>
+<!-- 
+<br>
+<br> -->
+<div class="p-2 text-center bg-secondary">
+    <div>
+        <button (click)="openPDF()" class="btn btn-primary p-2" >Get Pdf</button>
+        <br>
+        <mat-hint class="text-white">Click here to download as pdf</mat-hint>
+    </div>
+    <!-- <div>
+    </div> -->
+
+</div>
+</html>
+
+
+
+

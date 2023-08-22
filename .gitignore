@@ -1,0 +1,57 @@
+# Node.js / NPM
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Compiled output
+/dist/
+/tmp/
+/out-tsc/
+
+# Log files
+logs
+*.log
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Compiled TypeScript
+*.js
+*.js.map
+
+# Compiled CSS
+*.css
+*.css.map
+
+# Angular generated files
+src/environments/environment*.ts
+
+# Testing
+karma.conf.js
+protractor.conf.js
+
+# Editor backup files
+*~
+*.swp
+
+# Angular CLI configuration
+.angular-cli.json
+.angular-cli.json.save
+.angular-cli.json.bak
+
+# Compiled files for production
+deploy/
+dist/
+
+# Environment variables
+.env
+.env.prod
+.env.local
+
+# Coverage directory
+coverage/
